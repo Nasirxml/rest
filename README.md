@@ -2,6 +2,8 @@
 
 A minimalist, plugin-based REST API implementation with zero UI dependencies. Simplified API delivers pure JSON responses through an intuitive plugin architecture.
 
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/rynxzyy/Simplified-Api)
+
 ## Overview
 
 Simplified API is a base REST API implementation designed to be as simple as possible. It focuses solely on delivering JSON responses without any UI components, making it lightweight and straightforward to use. The API follows a plugin-based architecture where endpoints are automatically created based on the file structure.
@@ -169,7 +171,7 @@ try {
 
 ## License
 
-MIT
+This project is licensed under the [MIT License](LICENSE)
 
 ## Contributing
 
