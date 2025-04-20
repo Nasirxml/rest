@@ -49,17 +49,17 @@ simplified-api/
 
    ```javascript
    module.exports = {
-     // Category for documentation purposes
-     category: 'String',
-     
-     // Optional: List of parameters (can be omitted)
-     params: ['param1', 'param2'],
-     
-     // The main function that handles the request
-     async run(req, res) {
-       // Your code here
-       res.status(200).json({ result: 'Success' });
-     }
+        // Category for documentation purposes
+        category: 'String',
+        
+        // Optional: List of parameters (can be omitted)
+        params: ['param1', 'param2'],
+        
+        // The main function that handles the request
+        async run(req, res) {
+            // Your code here
+            res.status(200).json({ result: 'Success' });
+        }
    }
    ```
 
@@ -159,13 +159,13 @@ Plugins should use standard HTTP status codes and error messages:
 
 ```javascript
 if (!requiredParam) {
-  return res.status(400).json({ error: 'Required parameter missing' });
+    return res.status(400).json({ error: 'Required parameter missing' });
 }
 
 try {
-  // Your code here
+    // Your code here
 } catch (error) {
-  res.status(500).json({ error: error.message });
+    res.status(500).json({ error: error.message });
 }
 ```
 
